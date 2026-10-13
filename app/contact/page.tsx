@@ -1,0 +1,2 @@
+import { SiteFooter, SiteHeader } from '../components/SiteHeader';
+export default function ContactPage() { return <><SiteHeader /><main><section className="contact-panel section-shell"><p className="eyebrow"><span /> Contact</p><h1>Construisons quelque chose<br />qui se joue.</h1><p>Pour une opportunité, un stage ou simplement parler programmation gameplay :</p><a href="mailto:Noahostettler1@gmail.com">Noahostettler1@gmail.com</a></section></main><SiteFooter /></>; }

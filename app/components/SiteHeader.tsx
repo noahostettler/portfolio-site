@@ -1,0 +1,3 @@
+import Link from 'next/link';
+export function SiteHeader() { return <header className="site-header"><Link className="brand" href="/" aria-label="Accueil — Noa Hostettler"><span className="brand-mark">NH</span><span>Noa Hostettler</span></Link><nav className="main-nav" aria-label="Navigation principale"><Link href="/projects">Projets</Link><Link href="/skills">Compétences</Link><Link href="/about">À propos</Link></nav><Link className="header-contact" href="/contact">Contact</Link></header>; }
+export function SiteFooter() { return <footer className="site-footer section-shell"><p>Noa Hostettler<br /><span>Game programmer</span></p><a href="mailto:Noahostettler1@gmail.com">Noahostettler1@gmail.com</a><small>Portfolio · 2026</small></footer>; }
